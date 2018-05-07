@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: prod
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://rm-bp1g227itmc653tx5to.mysql.rds.aliyuncs.com:3306/pinenut
+    username: root
+    password: Www130144
+  jpa:
+    hibernate:a:
+      ddl-auto: update
+    show-sql: true

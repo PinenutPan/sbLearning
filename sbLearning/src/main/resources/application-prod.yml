@@ -1,0 +1,6 @@
+server:
+  port: 8080
+  contextPath: /pan
+girl:
+  cupSize: B
+  age: 18
